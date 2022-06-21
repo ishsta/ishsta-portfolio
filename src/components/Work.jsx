@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/workImg.jpeg'
+import weather from '../assets/weather.png'
 import realEstate from '../assets/realestate.jpg'
 
 const Work = () => {
@@ -16,7 +17,7 @@ const Work = () => {
 
                 {/* Grid item */}
                 <div 
-                style={{backgroundImage: `url(${WorkImg})`}} 
+                style={{backgroundImage: `url(${weather})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* Hover Effects */}
